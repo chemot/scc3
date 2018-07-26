@@ -18,15 +18,15 @@ botStart = time.time()
 # DAN MAU NANYA SEKITAR TENTANG BOT
 # [ADD ME]http://line.me/ti/p/%40ryp6149l
 
-Galank = LineClient(authToken='TOKENMU SAYANG')
+Galank = LineClient(authToken='EvhH8RsIbruk0fSd3yQ8.wb+1x+ATrwACcZUumYsSUa.BAKiIYh8bhegcGR9zcqVb1Evnels+nomI96HQp+YrLE=')
 Galank.log("Auth Token : " + str(Galank.authToken))
 channel = LineChannel(Galank)
 Galank.log("Channel Access Token : " + str(channel.channelAccessToken))
 #======================
-Galank1 = LineClient(authToken='TOKENMU SAYANG')
+Galank1 = LineClient(authToken='EvhvqjmsRdsHexCbMFyf.SrrNO62JoBMwTM0dc/1lxW.FxsGvTivmhlQWl5lVDQj1C/thcscGQJTlshv/ouDYl0=')
 Galank1.log("Auth Token : " + str(Galank1.authToken))
 #======================
-Galank2 = LineClient(authToken='TOKENMU SAYANG')
+Galank2 = LineClient(authToken='EvyI0q70OcFFBIEiCE0c.RjjX/PW5a9d/mkreQyncZa.1Y7Js9RElnokFGmqkVAiLoqORlbxXXQnSsXpEmZekqU=')
 Galank2.log("Auth Token : " + str(Galank2.authToken))
 #======================
 settingsOpen = codecs.open("slackbot.json","r","utf-8")
